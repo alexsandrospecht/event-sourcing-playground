@@ -1,0 +1,12 @@
+#H2 settings
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+axon:
+  axonserver:
+    suppressDownloadMessage: true
+  amqp:
+    exchange: bank-account.events
